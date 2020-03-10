@@ -1,0 +1,38 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #eb4034;
+}
+  
+a {
+color: #00B7FF;
+}
+
+.container {
+display: grid;
+grid-template-areas: 
+    "a1 a1" 
+    "a2 a3" 
+    "a4 a4";
+grid-template-columns: 9.375rem 1.875rem;
+}
+a1 {
+background-color: #00B7FF;
+grid-area: a1;
+}
+a2 {
+background-color: #01B71F;
+grid-area: a2;
+display: grid;
+grid-template-columns: 3.125rem 3.125rem 3.125rem;
+}
+a3 {
+background-color: #A0B7FF;
+grid-area: a3;
+display: grid;
+grid-template-columns: 1.875rem;
+}
+a4 {
+background-color: rgb(183, 182, 235);
+grid-area: a4;
+}

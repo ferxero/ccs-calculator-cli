@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="_style.css">
+</head>
+
+<body>
+    <h1>Fx</h1>
+    <p>Welcome to my Gist</p>
+
+    <div class="container">
+        <a1><input type="text" id="in_value" style="width: -webkit-fill-available; width: -moz-available;"></a1>
+        <a2>
+            <button onclick="set_value(1)">1</button>
+            <button onclick="set_value(2)">2</button>
+            <button onclick="set_value(3)">3</button>
+            <button onclick="set_value(4)">4</button>
+            <button onclick="set_value(5)">5</button>
+            <button onclick="set_value(6)">6</button>
+            <button onclick="set_value(7)">7</button>
+            <button onclick="set_value(8)">8</button>
+            <button onclick="set_value(9)">9</button>
+            <button onclick="set_value('.')">.</button>
+            <button onclick="set_value(0)">0</button>
+            <button onclick="solve_that()">=</button>
+        </a2>
+        <a3>
+            <button onclick="clear_value()">C</button>
+            <button onclick="set_value('+')">+</button>
+            <button onclick="set_value('-')">-</button>
+            <button onclick="set_value('*')">*</button>
+            <button onclick="set_value('/')">/</button>
+        </a3>
+        <a4 style="text-align: right; padding-right: .3125rem; padding-top: .3125rem; padding-bottom: .3125rem;"
+            id="result_value">0</a4>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
